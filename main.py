@@ -66,3 +66,5 @@ show_stats_change()
 
 with open('covid19.json', 'w') as f:
     json.dump(coronavirus, f)
+
+os.system('pause')
